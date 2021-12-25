@@ -1,0 +1,16 @@
+:root {
+  /* Variaveis Cores do Site */
+  --primary: #2091f9;
+  --secondaryGreen: #2dc071;
+  --secondaryOrange: #f15b07;
+  --text: #252b42;
+  --secondaryText: #374754;
+  --lightText: #ffff;
+  --darkBackground: #232a42;
+  --lightBackground: #ffffff;
+  --backgroundGradient: linear-gradient(
+    39.97deg,
+    #00f3b9 0.79%,
+    #2187ff 79.29%
+  );
+}
