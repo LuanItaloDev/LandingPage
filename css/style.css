@@ -80,6 +80,7 @@ header {
   font-weight: 100;
   color: var(--lightText);
   background-color: var(--primary);
+  padding: 0px 10px;
 }
 .btn-PrimaryBlue:hover {
   color: var(--lightText);
@@ -371,6 +372,7 @@ textarea::placeholder {
   flex-direction: column;
   justify-content: center;
   height: 80%;
+  /* width: 500px; */
 }
 .textoSubcribe {
   display: flex;
@@ -400,9 +402,8 @@ textarea::placeholder {
 
 .inputsSubcribe {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  gap: 10px;
   margin-top: 20px;
 }
 
@@ -410,11 +411,12 @@ textarea::placeholder {
   width: 100%;
 }
 .inputsSubcribe input {
-  width: 100%;
+  width: 200px;
   height: 54px;
   border-radius: 30px;
   border: none;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   border: 0.5px var(--secondaryText) solid;
 }
 
@@ -899,7 +901,10 @@ footer {
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
   }
-
+  .inputsSubcribe {
+    flex-direction: column;
+    justify-content: center;
+  }
   #navHeader.active #menuHeader {
     height: calc(100vh - 65px);
     visibility: visible;
